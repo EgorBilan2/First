@@ -1,0 +1,29 @@
+.table {
+   position: fixed;
+    width: 750px;
+    height: 450px;
+    border: solid;
+    border-color: red;
+    border-collapse: collapse;
+    margin-left: 250px;
+}
+.borders {border: solid;
+    border-color: red;
+}
+h2 {
+
+    font-family: SF UI Display;
+    font-weight: 300;
+    margin-left: 570px;}
+
+.legend {
+    margin-left: 630px;
+}
+.label {
+    font-family: SF UI display;
+    font-weight: 300;
+    font-size: 18px;
+}
+.textarea {
+    font-family: SF UI Display;
+}
