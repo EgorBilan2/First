@@ -1,0 +1,8 @@
+User-agent:*
+Disallow:/no-index/about/contacts.html
+Disallow:/*.pdf$
+
+User-agent: Googlebot
+
+Allow:/no-bots/about.html
+Sitmap: https://foods-body.ua/sitemap.xml
