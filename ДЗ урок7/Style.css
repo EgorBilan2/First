@@ -12,12 +12,13 @@
 }
 
 h1 { 
+    text-justify: auto;
     opacity: 1;
-    padding-top: 100px;
-    padding-left: 100px;
+    padding-top: 250px;
+    padding-left: 60px;
     font-family: SF UI Display;
-    font-weight: 600;
-    font-size: 24px;
+    font-weight: 200;
+    font-size: 36px;
     color: white;
 }
 body {
@@ -29,7 +30,7 @@ body {
 .email {
     border: 0ch;
     background-color: darkgray;
-    margin-top: 170px;
+    margin-top: -10px;
     margin-left: 90px;
     height: 30px;
     width: 200px;
