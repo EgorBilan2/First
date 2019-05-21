@@ -17,18 +17,23 @@
     height: 150px;
 }
 .slogan {
+    font-size: 23px;
     padding-top: 50px;
     margin-left: 350px;
 }
 .tel {
+    font-size: 23px;    
     padding-top: 50px;
     margin-left: 200px;
 }
 .nav {
     display: Flex;
     margin: 0 auto;
+    
 }
 .menu {
+   
+    font-size: 23px;
     position: relative;
     margin: 0 auto;
     background-color: blue;
@@ -45,11 +50,12 @@
 
 }
 .name{
+    text-decoration: none; 
+    text-align: center;
     font-size: 23px;
     color: white;
 }
 .point {
-    text-align: center;
     margin-top: 10px;
     margin-right: 150px;
     margin-bottom: 10px;
