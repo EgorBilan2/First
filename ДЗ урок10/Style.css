@@ -103,6 +103,15 @@
 }
 .button:hover~.pic {
     display: block;
+    
+}
+.button:active {
+    background-color: #6a136d;
+    box-shadow: 0px 0px 9px rgb(187, 52, 192);
+
+}
+.button:active~.pic {
+    display: none; 
 }
 .pic {
     
@@ -113,6 +122,7 @@
     width: 35px;
     height: 35px;
     opacity: 0.5;
+    
 }
 .inset {
     position: fixed;
