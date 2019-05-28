@@ -1,0 +1,28 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: linear-gradient(90deg, #11998e,  #38ef7d);
+}
+.box {
+    position: relative;
+    top: 50px;
+    left: 150px;
+    background: linear-gradient(to top, rgb(63, 42, 170), #5433FF,#20BDFF,#A5FECB);
+    width: 200px;
+    height: 150px; 
+    text-align: center;
+    transition: all ease 2s;
+    
+}
+.box:hover  {
+    width: 400px;
+    height: 350px; 
+    border: solid; 
+    border-width: 6px;
+    border-color: rgb(255, 3, 3);
+    background: linear-gradient( to top,#360e50, #833ab4, #fd1d1d,#fcb045,#fcb045);
+    
+}
