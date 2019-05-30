@@ -1,0 +1,89 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cube {
+    margin: 0 auto;
+    background-image: url(pic.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    height: 170px;
+    width: 250px;
+    animation-name: pegas;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;   
+}
+@keyframes pegas{
+    0%{
+        background-position: 
+        -0px 0;
+    }    
+    12.332%
+    {
+        background-position: -0px 0;
+    }
+    12.334%
+    {
+        background-position: -290px 0;
+    }
+    24.332%
+    {
+        background-position: -290px 0;
+    }
+    24.334%
+    {
+        background-position: -540px 0;
+    }
+    36.332%
+    {
+        background-position: -540px 0;
+    }
+    36.334%
+    {
+        background-position: -820px 0;
+    }
+    48.332%
+    {
+        background-position: -820px 0;
+    }
+    48.334%
+    {
+        background-position: -290px -200px;
+    }
+    60.332%
+    {
+        background-position: -290px -200px;  
+    }
+    60.334%
+    {
+        background-position: -540px -200px;
+    }
+    72.332%
+    {
+        background-position: -540px -200px;
+    }
+    72.334%
+    {
+        background-position: -820px -200px;
+    }
+    72.338%{
+        background-position: -15px -400px;
+    }
+    84.331%
+    {
+        background-position: -15px -400px;
+    }
+    84.332%{
+        background-position: -15px -400px;
+    }
+    84.334%{
+        background-position: -270px -400px;
+    }
+    100%
+    {
+        background-position: -270px -400px;
+    }
+}   
