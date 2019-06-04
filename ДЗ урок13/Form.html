@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8" />
+<title></title>
+<link rel="stylesheet" href="Style.css" />
+</head>
+<body>
+    <fieldset class="field"><legend class="legend" >Form</legend>
+   <form  class="form" enctype="multipart/form-data" method="post">
+    <p class="input"><input type="text" name="name" placeholder="Your Name"/></p> 
+    <p class="input2"><input type="text" name="surname" placeholder="Your Surname"/></p>
+    <p class="select"><select size="1" name="Gender">
+        <option disabled>Choose your gender</option>
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+    </select></p>
+    <p class="Checkbox2">What is your occupation:</p>
+    <p class="Checkbox">
+        <input type="checkbox" name="option1" value="a1" checked>Designer<Br>
+        <input type="checkbox" name="option2" value="a2">Developer<Br>
+        <input type="checkbox" name="option3" value="a3">SEO<Br> 
+        <input type="checkbox" name="option4" value="a4">Front-End<Br> 
+        <input type="checkbox" name="option5" value="a5">Back-end<Br> 
+    </p>
+    <p class="file">Upload your photos:</p>
+    <p class="file2">
+       <input class="file2" type="file" name="file" accept="jpg" size="20" >
+    </p>
+    <a href="#" name="Form" target="/" ><button class="button">SEND</button></a>
+   </form> 
+  </fieldset>
+    </body>
+</html>
