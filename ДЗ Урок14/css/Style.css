@@ -1,0 +1,118 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    height: 100%;
+    position: relative;
+}
+.for_page {
+    position: relative;
+    min-height: 100%;
+}
+body{
+    font-family: vidaloka_regular;
+    font-size: 14px;
+    color: #000;}
+    /* font-family: back_to_black_demoregular; */
+.header {
+    position: relative;
+    z-index: 2;
+}   
+.banner {
+    position: absolute;
+    left: 0;
+    top: 0;
+    
+    width: 100%;
+    background: url(../images/wex.jpg) no-repeat;
+    background-size: cover;
+    padding-top: 357px;
+    padding-bottom: 240px; 
+}
+
+.navbar-brand{
+    visibility: hidden;
+    
+}
+.logo-site {
+    position: absolute;
+    top: 80px;
+    
+}
+.navbar-nav {
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    display: flex;
+    flex-flow: nowrap row;
+    justify-content: space-around;
+    text-transform: uppercase;
+    font-family: Vidaloka;
+    list-style-type: none; 
+    }
+
+.nav-link {
+ position: absolute;
+ color: white;
+}
+.nav-link:hover {
+position: absolute; 
+color: yellow;
+text-decoration: none;
+border-bottom: 2px solid currentColor;
+padding-bottom: 44px;
+z-index: 1;
+
+
+
+}
+.search {
+    position: relative;
+    left: 30px;
+    top: 95px;
+    height: 30px;
+    border-left: white solid 1px;
+}
+.search-icon {
+    margin-top: 8px;
+    padding-left: 10px;
+    position: absolute;
+    
+   
+    width: 100%;
+    display: flex;
+    flex-flow: nowrap row;
+    justify-content: end;
+    
+
+}
+.line { 
+    position: absolute;
+    top: 160px;
+    height: 1px;
+    width: 78%;
+    background-color: white;
+    display: flex;
+    flex-flow: nowrap row;
+    justify-content: space-around;
+    z-index: 1;
+}
+.slogan {
+    position: relative;
+    display: flex;
+    flex-flow: nowrap column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family:'back_to_black_demoregular';
+    line-height: 270px;
+    
+}
+.slogan1 {
+    font-size: 110px;
+}
+.slogan2 {
+    font-size: 280px;
+}
