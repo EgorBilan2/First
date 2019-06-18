@@ -1,0 +1,251 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{
+	padding:0;
+	margin:0;
+	}
+body,html{
+	height:100%;
+	position:relative;
+	}
+.for_page{
+	position:relative;
+	min-height:100%;
+	}
+.page{
+	padding-bottom: 240px;
+	}
+body{
+	 font-family: 'vidaloka_regular';
+	 font-size:14px;
+	 color:#000;
+	}
+.header{
+	position:relative;
+	z-index:2;
+	padding-top: 60px;
+	}
+
+.header .border-header{
+	    border-bottom: solid 1px #a8a4a3;
+		    padding-bottom: 24px;
+	}
+/*menu*/
+.nav-menu{
+	padding-top:18px;
+	    display: flex;
+    justify-content: center;
+	}
+.nav-menu ul{
+	display:flex;
+	}
+.nav-menu li{
+	list-style:none;
+	margin-right:44px;
+	}
+.nav-menu li:last-child{
+	margin-right:0;
+	}
+.nav-menu li a{
+	transition:0.3s;
+	color:#fff;
+	font-size:13px;
+	text-transform:uppercase;
+	 padding-bottom: 37px;
+	}
+.nav-menu li.active a,
+.nav-menu li a:hover{
+	color:#ffeb3b;
+	    text-decoration: none;
+    border-bottom: solid 1px #ffeb3b;
+    padding-bottom: 37px;
+	}
+.btn-search{
+	font-size:0;
+	background:url(../images/search.png) no-repeat;
+	background-position:center center;
+	width:43px;
+	height:37px;
+	border:inherit;
+	border-left: solid 1px #a8a4a3;
+	}
+
+.pole-search{
+	display:none;
+	}
+.form-search{
+	padding-top:72px;
+	position:relative;
+	}
+.btn_menu{
+	display:none;
+	}
+/*menu*/
+
+/*baner1*/
+.banner-home{
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:1;
+	 width: 100%;
+	background:url(../images/fone-home.jpg) no-repeat;
+	background-size:cover;
+	background-position: center center;
+	    padding-top: 262px;
+    padding-bottom: 10px;
+	}
+#next-slider .owl-item .item h2{
+	text-align:center;
+	font-family: 'back_to_black_demoregular';
+	font-size:110px;
+	color:#fff;
+	}
+#next-slider .owl-item .item div{
+	font-size:280px;
+	}
+.owl-theme .owl-dots .owl-dot {
+    outline: none;
+}
+#next-slider .owl-nav .owl-prev{
+	outline:none;
+	background:url(../images/arrow_prev.png) no-repeat;
+	    height: 13px;
+    width: 8px;
+    position: absolute;
+    left: 0%;
+    top: 50%;
+
+	}
+#next-slider .owl-nav .owl-next:hover,
+#next-slider .owl-nav .owl-prev:hover{
+	opacity:0.6;
+	}
+#next-slider .owl-nav .owl-next{
+	outline:none;
+	background:url(../images/arrow_next.png) no-repeat;
+	    height: 13px;
+    width: 8px;
+    position: absolute;
+    right: 0%;
+    top: 50%;
+	}
+/*baner1*/
+
+/*galery*/
+.galery-home{
+	    padding-top: 700px;
+	}
+.galery-home h2{
+	font-size:36px;
+	color:#333333;
+	text-align:center;
+	padding-bottom:34px;
+	}
+.galery-home p{
+	font-size:16px;
+	color:#969595;
+	text-align:center;
+	max-width:750px;
+	width:100%;
+	margin:0 auto;
+	padding-bottom:118px;
+	}
+.galery-home .nav-tabs {
+    border-bottom: inherit;
+	padding-bottom:112px;
+	    display: flex;
+    justify-content: center;
+}
+.galery-home .nav-tabs>li>a {
+    margin-right: 9px;
+    line-height: normal;
+    border: 2px solid #ffda00;
+    border-radius: inherit;
+    font-size: 14px;
+    color: #181a1f;
+	    padding: 9px 35px;
+}
+.galery-home .nav-tabs>li.active>a, 
+.galery-home .nav-tabs>li.active>a:focus,
+.galery-home .nav-tabs>li.active>a:hover{
+		background:#ffda00;
+		border: 2px solid transparent;
+		
+	}
+.galery-home .nav>li>a:focus,
+.galery-home .nav-tabs>li>a:hover{
+	border-color: transparent;
+		background-color: #ffda00;
+	}
+	
+.masonry-layout{
+	display:flex;
+	flex-direction:column;
+	flex-wrap:wrap;
+	padding:10px;
+	height:100vw;
+	}
+.masonry-layout__panel{
+	display:flex;
+	flex:1 1 auto;
+	width:33%;
+	}
+.masonry-layout img {
+    max-width: 100%;
+	width:auto;
+    height: auto;
+}
+.fancy-box{
+	display:flex;
+	padding:100px 0px;
+	}
+.fancy-box a{
+	width:50%;
+	}
+img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+.footer{
+	position:absolute;
+	left:0;
+	bottom:0;
+	width:100%;
+	padding-top:36px;
+	padding-bottom:46px;
+	background:url(../images/bg-footer.jpg) repeat;
+	}
+.flex-footer{
+	display:flex;
+	justify-content:center;
+	    flex-wrap: wrap;
+	}
+	.flex-footer a{
+		width:100%;
+		padding-bottom:25px;
+		}
+	.copy-right{
+		font-size:14px;
+		color:#fff;
+		    width: 100%;
+			text-align: center;
+		}
+	.copy-right span{
+		color:#ffeb3b;
+		
+		}
+	.share42init{
+		width:100%;
+		padding-top:26px;
+		    text-align: center;
+		}
+	.flex-footer .logo-site img {
+    vertical-align: middle;
+    margin: 0 auto;
+    display: block;
+}
+/*galery*/
+/*font-family: 'back_to_black_demoregular';*/
