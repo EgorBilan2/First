@@ -592,7 +592,7 @@ font-family: vidaloka_regular;
     display: block;
     text-align: center;
     padding-bottom: 100px;
-    background: url(../images/Background.jpg);
+    background: url(../images/Background2.jpg);
     background-size:cover;
 	background-position: center center;
 	padding-top: 150px;
@@ -646,4 +646,54 @@ font-family: vidaloka_regular;
     }
     .section8 a:hover {
         color: #000;
+    }
+    .footer{
+        position:relative;
+        left:0;
+        top:2000px;
+        bottom:0;
+        width:100%;
+        padding-top:36px;
+        padding-bottom:46px;
+        background:url(../images/Background.jpg) repeat;
+        }
+    .flex-footer{
+        display:flex;
+        justify-content:center;
+        flex-wrap: wrap;
+        }
+        .flex-footer a{
+            width:100%;
+            padding-bottom:40px;
+            }
+        .copy-right{
+            padding-top: 50px;
+            font-size:14px;
+            color:#fff;
+                width: 100%;
+                text-align: center;
+            }
+        .copy-right span{
+            color:#ffeb3b;
+            
+            }
+        .share42init{
+            width:100%;
+            padding-top:26px;
+            text-align: center;
+            }
+        .flex-footer .logo-site img {
+        vertical-align: middle;
+        margin: 0 auto;
+        display: block;
+    }
+    .footer .share42init .fb {
+        padding-right: 10px;
+    }
+    .footer .share42init .tweet {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .footer .share42init .in {
+        padding-left: 10px;
     }
