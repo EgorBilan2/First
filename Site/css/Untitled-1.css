@@ -23,7 +23,7 @@ body{
 
 
 .logo-site {
-    position: relative;
+    position: absolute;
     top: 65px;
 }
 .header .border-header{
@@ -35,7 +35,6 @@ body{
 	padding-top:80px;
 	display: flex;
     justify-content: center;
-    
 	}
 .nav-menu ul{
 	display:flex;
@@ -110,7 +109,7 @@ body{
 #next-slider .owl-nav .owl-prev{
 	outline:none;
 	background:url(../images/Left.png) no-repeat;
-	height: 13px;
+	    height: 13px;
     width: 8px;
     position: absolute;
     left: 0%;
@@ -163,9 +162,9 @@ body{
 /* Section2 */
 /* Section3 */
 .section3 {
-    position: relative;
+    position:absolute;
 	left:0;
-    top:1000px;
+    top:1200px;
     display: block;
     text-align: center;
 	z-index:1;
@@ -221,13 +220,12 @@ font-size: 15px;
 
 }
 
-.block .icon1:before{
-    position: absolute;
-    content: url(../images/icon.png);
-}
-.block .icon1:hover:before{
-    display: none;
-  
+.icon1:hover {
+   background-image: url('../images/icon11.png');
+   background-position: 100%;;
+   background-repeat: no-repeat;
+   z-index: 1;
+   
     }
     .icon3:hover {
     background-image: url('../images/icon31.png');
@@ -251,20 +249,21 @@ font-size: 15px;
 
 
 .section4 {
-    position: absolute;
-    background: url(../images/Background.jpg);
+    position:absolute;
+    background-image: url(../images/Background.jpg);
 	left:0;
-    top:1600px;
+    top:1744px;
     display: block;
     text-align: center;
-	width: 100%;
+	z-index:1;  
+    width: 100%;
 }
 .flex2 {
     margin-top: 94px;
     margin-bottom: 94px;
     position: relative;
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: space-around;
 
 }
@@ -283,9 +282,9 @@ font-size: 15px;
 /* Section4 */
 /*galery-home*/
 .galery-home {
-    position: relative;;
+    position:absolute;
 	left:0;
-    top:1600px;
+    top:2300px;
     display: block;
     text-align: center;
 	z-index:1;
@@ -369,11 +368,9 @@ font-size: 15px;
 /*galery-home*/
 /*section5*/
 .section5 {
-    position: relative;
+    position: relative;;
 	left:0;
-    top:1700px;
-    display: block;
-    text-align: center;
+    top:4700px;
 }
 .section5 h2 {
 font-family: vidaloka_regular;
@@ -385,22 +382,21 @@ font-family: vidaloka_regular;
     margin: 0 auto;
 }
 .section5 .p1{
-    font-family: Open Sans;
-	font-size: 16px;
-	text-align: center;
+font-family: Open Sans;
+    font-size: 16px;
+    text-align: center;
     line-height: 26px;
     color: #969595;
     max-width: 750px;
-	width: 100%;
-	padding-bottom: 50px;
+    width: 100%;
     margin: 0 auto;
 }
-.container2{
+.container{
+    
     display: flex;
     flex-flow: wrap;
     justify-content: center;
-	align-content: center;
-	
+    align-content: space-between ;
 }
 .progect {
     width: 360px;
@@ -410,27 +406,8 @@ font-family: vidaloka_regular;
     padding-top: 95px;
     padding-bottom: 60px;
     padding-left: 35px;
-	padding-right: 35px;
-	color: #fff;
+    padding-right: 35px;
 
-}
-.progect h4{
-	font-family: vidaloka_regular;
-    font-size: 20px;
-    text-align: center;
-}
-.progect p{
-	font-family: Open Sans;
-    font-size: 13px;
-	text-align: center;
-	line-height: 24px;
-}
-.progect a{
-	font-family: Open Sans;
-	font-size: 14px;
-	color: #ffda00;
-	font-weight: 600;
-	text-decoration: underline;
 }
 .progect.project1{
     background-color: #ff5252;
@@ -445,205 +422,8 @@ font-family: vidaloka_regular;
     background-color: #2196f3;
 }
 .progect.project5{
-	color: #000;
-    background-color: #ffeb3b;
-}
-.progect.project5 a{
-	color: #000;
     background-color: #ffeb3b;
 }
 .progect.project6{
     background-color: #00bcd4;
 }
-
-/* .section6 */
-.section6 {
-    position: relative;
-	left:0;
-    top:1800px;
-    display: block;
-    background: url(../images/Background.jpg);
-    background-size:cover;
-	background-position: center center;
-	padding-top: 130px;
-    padding-bottom: 121px;
-    }
-    #next-slider2 .owl-theme{
-        padding-left: 300px;
-        padding-right: 300px;
-        display: flex;
-        flex-direction: row;
-        align-content: space-between; 
-    }
-    #next-slider2 .owl-dots .owl-dot{
-        color: #ffeb3b;
-    }
-    #next-slider2 .owl-item .item2 div {
-        margin: 0 auto;
-        width: 108px;
-      }
-      #next-slider2 .owl-item:active{
-          width: 108px;
-      } 
-    .Client {
-    font-family: vidaloka_regular;
-    font-size: 36px;
-    line-height: 96px;
-    text-align: left;
-    padding-left: 100px;
-    color: #ffffff;
-    margin-top: 0;
-    margin-bottom: 0;
-    }
-    .p2 {   
-    font-family: Open Sans;
-	font-size: 16px;
-	color: #ffff;
-    line-height: 24px;
-    padding-left: 100px;
-    padding-right: 397px;
-    padding-bottom: 132px;
-    }
-  /*  section 7 */
-.section7 {
-    position: relative;
-    left:0;
-    top:1900px;
-    display: block;
-    padding-bottom: 100px;
-}
-.section7 h2 {
-    font-family: vidaloka_regular;
-        font-size: 36px;
-        text-align: center;
-        line-height: 96px;
-        color: #333333;
-        width: 100%;
-        margin: 0 auto;
-    }
-    .section7 .p1{
-        font-family: Open Sans;
-        font-size: 16px;
-        text-align: center;
-        line-height: 26px;
-        color: #969595;
-        max-width: 750px;
-        width: 100%;
-        padding-bottom: 50px;
-        margin: 0 auto;
-    }
-    .team {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .member {
-      text-align: center;
-        padding-left: 10px;
-        padding-right: 10px;  
-    }
-    .member h3{
-        font-family: vidaloka_regular;
-        font-size: 16px;
-        text-align: center;
-        line-height: auto;  
-    }
-    .member p{
-        font-family: Open Sans;
-        font-size: 13px;
-        line-height: 22px;
-        padding-left: 70px;
-        padding-right: 70px;
-}
-.member .fb a{
-    position: relative;
-    
-}
-
-.member .fb:before{
-    position: absolute;
-    content: url(../images/fb.png)
-}
-.member .fb:hover:before{
-    display: none;
-        
-}
-.member .tweet:before{
-    position: absolute;
-    content: url(../images/tweet.png)
-}
-.member .tweet:hover:before{
-    display: none;
-  
-}
-.member .in:before{
-    position: absolute;
-    content: url(../images/in.png)
-}
-.member .in:hover:before{
-    display: none;
-  
-}
-   /* section8 */
-.section8 {
-    position: relative;
-    left:0;
-    top:2000px;
-    display: block;
-    text-align: center;
-    padding-bottom: 100px;
-    background: url(../images/Background.jpg);
-    background-size:cover;
-	background-position: center center;
-	padding-top: 150px;
-    padding-bottom: 109px;
-}   
-.section8 h2 {
-    font-family: vidaloka_regular;
-        font-size: 36px;
-        text-align: center;
-        line-height: 96px;
-        color: #fff;
-        width: 100%;
-        margin: 0 auto;
-    }
-    .section8 .p1{
-        font-family: Open Sans;
-        font-size: 16px;
-        text-align: center;
-        line-height: 26px;
-        color: #969595;
-        max-width: 750px;
-        width: 100%;
-        padding-left: 135px;
-        padding-right: 135px;
-        padding-bottom: 68px;
-        margin: 0 auto;
-    }  
-    .section8 .search{
-        height: 50px;
-        width: 460px;
-        border: none;
-        padding-left: 27px;
-        opacity: 0.2;
-        background-color: white;
-        color: #ffffff;
-        }  
-        .section8 .search:focus{
-            opacity: 1;
-            color: #000;
-            border: none;
-        }
-    .section8 .button {
-        height: 50px;
-        width: 140px;
-        margin-left: 20px;
-        background-color: #ffeb3b;
-        border: none;   
-    }
-    .section8 a{
-        color: #000;
-    }
-    .section8 a:hover {
-        color: #000;
-    }
