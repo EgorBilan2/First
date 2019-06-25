@@ -165,7 +165,7 @@ body{
 .section3 {
     position: relative;
 	left:0;
-    top:1000px;
+    top:900px;
     display: block;
     text-align: center;
 	z-index:1;
@@ -396,6 +396,8 @@ font-family: vidaloka_regular;
     margin: 0 auto;
 }
 .container2{
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-flow: wrap;
     justify-content: center;
@@ -507,7 +509,7 @@ font-family: vidaloka_regular;
   /*  section 7 */
 .section7 {
     position: relative;
-    left:0;
+    left:0px;
     top:1900px;
     display: block;
     padding-bottom: 100px;
@@ -533,10 +535,14 @@ font-family: vidaloka_regular;
         margin: 0 auto;
     }
     .team {
+        position: relative;
         display: flex;
-        justify-content: center;
+        flex-flow: row;
+        justify-content: space-around;
         align-items: center;
+        align-content: space-around;
     }
+    
     .member {
       text-align: center;
         padding-left: 10px;

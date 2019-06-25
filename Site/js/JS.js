@@ -80,15 +80,15 @@ jQuery(document).ready(function () {
 				autoplay: false
 			},
 			479:{
-				items: 4,
+				items: 2,
 				mouseDrag: true
 			},
 			767:{
-				items: 4,
+				items: 3,
 				mouseDrag: true
 			},
 			991:{
-				items: 4,
+				items: 3,
 				mouseDrag: true
 			},
 			1099:{
