@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <title></title>
+</head>
+<body>
+  
+</body>
+<script>
+//Первое
+  var arr1 = ["First","Second","Third","Fourth","Fifth","Sixth"];
+	var arr = arr1.join(';');
+  alert(arr);
+//Второе	
+  var arr2 = ['Привет'];	
+  alert(new Array(6).join("Привет"));
+//Третье
+  var arr3 = ["First","Second","Third","Fourth","Fifth","Sixth"]; 
+  delete arr3[4];
+  alert(arr3);
+//Четвертое
+  var arr4 = ["First","Second","Third","Fourth","Fifth","Sixth"];
+  arr4.splice(2,2,"Hello World");
+  alert(arr4);
+//Пятое
+  var arr5 = ["First","Second","Third","Fourth","Fifth"];
+  var arr6 = arr5.slice(0,3);
+  alert(arr6);
+</script>
+</html>
