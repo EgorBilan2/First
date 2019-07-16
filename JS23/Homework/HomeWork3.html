@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8" />
+<title>Home work l8</title>
+<link rel="stylesheet" href="style.css"/>
+  </head>
+	<body>
+        <div class="container">
+            <div class="form">
+                <div>
+                    <h2>Registration</h2>
+                </div>
+            <div>
+                    <p id="help">Help</p>
+                <form  class="input">
+                    <input id="name" class="name" type="text" placeholder="Enter your name"/>
+                </form> 
+            </div>
+            <div >
+                <form  class="input">
+                    <input id="email" class="Email" type="text" placeholder="Enter your Email"/>
+                </form> 
+            </div>
+            <div >
+                         <form  class="input">
+                        <input id="pass"  class="pass" type="text" placeholder="Enter your pass"/>
+                    </form> 
+                </div>
+                <button class="button">Log in</button>
+            </div>
+        </div>
+          </body>
+          <script>
+          function showHelp(help){
+	 document.getElementById('help').innerHTML= help;
+	 }
+	 function makeHelpCallback(help){
+		 return function(){
+			 showHelp(help);
+			 };
+		 }
+	function setupHelp(){
+		var helpText =[
+			{'id': 'email', 'help': 'Ваш адрес e-mail'},
+			{'id': 'name', 'help': 'Ваш полное имя'},
+			{'id': 'pass', 'help': 'Ваш пароль (от 6 символов)'}
+		];
+			for (var i=0; i<helpText.length; i++){
+			 var item = helpText[i];
+			 document.getElementById(item.id).onfocus = makeHelpCallback(item.help);
+		 }
+	}
+	setupHelp();
+           </script>
+</html>

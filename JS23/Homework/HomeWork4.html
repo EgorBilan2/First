@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+</head>
+
+<body>
+
+<h2>heading 2 text</h2>
+
+<button><a href="#" id="size-20">ZOOM</a></button>
+
+</body>
+<style>
+body{
+    text-align: center;
+	font-size:14px;
+	}
+h2{
+    color: grey;
+	font-size:1.2em;
+	}
+button {
+    text-align: center;
+    width: 250px;
+    height: 100px;
+    font-weight: 200;
+    letter-spacing: 10px;
+    font-size: 48px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+    color: white;
+}
+a {
+    color: white;
+    text-decoration: none; 
+}
+</style>
+<script>
+function makeSizer(size){
+	 return function(){
+		  document.body.style.fontSize = size + 'px';
+		 };
+	}
+	var size20 = makeSizer(20);
+	document.getElementById('size-20').onclick = size20;
+
+</script>
+</html>
